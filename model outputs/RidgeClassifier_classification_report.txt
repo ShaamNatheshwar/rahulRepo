@@ -1,0 +1,11 @@
+Classification report for RidgeClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.83      0.79      0.81       246
+           1       0.68      0.74      0.71       151
+
+    accuracy                           0.77       397
+   macro avg       0.76      0.76      0.76       397
+weighted avg       0.77      0.77      0.77       397
+

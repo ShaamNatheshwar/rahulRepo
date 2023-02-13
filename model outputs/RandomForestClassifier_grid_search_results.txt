@@ -1,0 +1,45 @@
+Best performing model = RandomForestClassifier(max_features='sqrt', n_estimators=1000) 
+
+Accuracy score on the test set = 0.71 
+
+Model parameters = {'max_features': 'sqrt', 'n_estimators': 1000} 
+
+   mean_fit_time  std_fit_time  mean_score_time  std_score_time  \
+2      11.543927      0.164452         0.217020        0.038712   
+1       1.243075      0.054940         0.044281        0.007453   
+5       5.725687      0.707001         0.242352        0.074799   
+4       0.645871      0.010143         0.044481        0.008776   
+0       0.215623      0.021972         0.019548        0.002410   
+3       0.104720      0.014188         0.017952        0.005046   
+
+  param_max_features param_n_estimators  \
+2               sqrt               1000   
+1               sqrt                100   
+5               log2               1000   
+4               log2                100   
+0               sqrt                 10   
+3               log2                 10   
+
+                                           params  split0_test_score  \
+2  {'max_features': 'sqrt', 'n_estimators': 1000}           0.757778   
+1   {'max_features': 'sqrt', 'n_estimators': 100}           0.762222   
+5  {'max_features': 'log2', 'n_estimators': 1000}           0.711111   
+4   {'max_features': 'log2', 'n_estimators': 100}           0.704444   
+0    {'max_features': 'sqrt', 'n_estimators': 10}           0.722222   
+3    {'max_features': 'log2', 'n_estimators': 10}           0.688889   
+
+   split1_test_score  split2_test_score  split3_test_score  split4_test_score  \
+2           0.735556           0.733333           0.706013           0.761693   
+1           0.733333           0.724444           0.706013           0.748330   
+5           0.697778           0.713333           0.703786           0.723831   
+4           0.697778           0.697778           0.688196           0.730512   
+0           0.680000           0.704444           0.677060           0.692650   
+3           0.664444           0.651111           0.681514           0.683742   
+
+   mean_test_score  std_test_score  rank_test_score  
+2         0.738875        0.019998                1  
+1         0.734869        0.019355                2  
+5         0.709968        0.008850                3  
+4         0.703742        0.014352                4  
+0         0.695275        0.016627                5  
+3         0.673940        0.014059                6  
